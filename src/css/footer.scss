@@ -1,0 +1,85 @@
+.footer{
+  background: #222730;
+  padding: 130px 0 61px;
+  position: relative;
+  &::after{
+    content: '';
+    height: 1px;
+    width: 100%;
+    background: #3E3E3E;
+    position: absolute;
+    top: 450px;
+  }
+}
+.footer__nav{
+  display: flex;
+  column-gap: 150px;
+  margin-bottom: 96px;
+}
+.footer__nav__left{
+  width: 300px;
+}
+.footer__left__text{
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #999999;
+  margin-top: 40px;
+}
+.footer__nav__right{
+  display: flex;
+  column-gap: 200px;
+  align-items: center;
+}
+.footer__right__block{
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.footer__block__nav{
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+.footer__block__title{
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: capitalize;
+}
+.footer__block__link{
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 38px;
+  text-transform: capitalize;
+  color: #999999;
+  transition: .5s;
+
+  &:hover{
+    transition: .5s;
+    font-size: 20px;
+  }
+}
+.footer__corp{
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #898989;
+}
+
+
+@media (max-width: 768px) {
+  .footer__nav__right{
+    column-gap: 75px;
+  }
+}

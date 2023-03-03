@@ -1,0 +1,58 @@
+.header{
+  padding: 20px 0 0 ;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+}
+.header__logo{
+  margin-right: 222px;
+}
+.header__links{
+  display: flex;
+  column-gap: 60px;
+  align-items: center;
+  margin-right: 167px;
+}
+.header-link{
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  transition: .5s;
+  &:hover{
+    font-size: 25px;
+    transition: .5s;
+  }
+}
+.header__contact{
+  position: relative;
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+}
+.header__frame{
+  position: absolute;
+  left: 30px;
+  top: 20px;
+}
+.header__btn{
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 16px 31px;
+  border: 1px solid #FFFFFF;
+  background: transparent;
+  cursor: pointer;
+  transition: .5s;
+  &:hover{
+    font-size: 25px;
+    transition: .5s;
+  }
+}
+
+
+

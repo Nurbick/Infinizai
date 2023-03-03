@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  color: #ffffff;
+}
+$blue: #57B8FF;
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 20px;
+}
+button{
+  background: $blue;
+  border: none;
+}
+.all__desk{
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #57B8FF;
+  display: flex;
+  column-gap: 8px;
+  align-items: center;
+}
+
+
+@import "header";
+@import "home";
+@import "sponsors";
+@import "tehnology";
+@import "new-era";
+@import "character";
+@import "games";
+@import "news";
+@import "join";
+@import "footer";
+
+
+@media (max-width: 425px) {
+  .all__desk{
+    color: #ff5757;
+  }
+  
+}

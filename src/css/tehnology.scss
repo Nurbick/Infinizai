@@ -1,0 +1,72 @@
+.technology{
+  padding: 136px 0 130px;
+  background: url("../images/tehnology/tehnologybg.png") center/cover no-repeat fixed;
+}
+.technology__desc{
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  justify-content: center;
+  text-transform: uppercase;
+}
+.technology__title{
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 74px;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 22px 0 39px;
+}
+.technology__text{
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: rgba(223, 223, 223, 0.8);
+  margin-bottom: 61px;
+}
+.technology__cards{
+  display: flex;
+  gap: 32px 32px;
+  flex-wrap: wrap;
+}
+.technology__card{
+  position: relative;
+  width: calc(50% - 16px);
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  padding: 35px 36px 32px 80px;
+  transition: .5s;
+  cursor: pointer;
+  &:hover{
+    transition: .5s;
+    transform: scale(1.3);
+  }
+}
+.technology__card__title{
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  text-transform: capitalize;
+}
+.technology__card__text{
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(223, 223, 223, 0.8);
+}
+.technology__card__star{
+  position: absolute;
+  top: 35px;
+  left: 35px;
+}
